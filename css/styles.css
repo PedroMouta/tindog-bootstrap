@@ -1,8 +1,8 @@
 /*
 CRITICAL ABOUT CENTERING:
 
-- To align horizontally use 'text-center' on classs or 'text-align: center;' in CSS - always on the DIV outside
-- To align vertically use 'align-self-center' on class or 'align-self: center;' in CSS - always on the DIV outside
+- See codeply with the full explanation on centering horizontally and vertically
+https://www.codeply.com/p/H0jFRz4mx5
 
 -----------------------
 Fonts used in this project:
@@ -20,15 +20,15 @@ body {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
+  font-weight: 900;
   line-height: 1.5;
   color: white;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   line-height: 1.5;
-  font-size: 2rem;
 }
 
 h3 {
@@ -52,6 +52,7 @@ h3 {
 .nav-link {
   font-weight: 600;
   font-size: 1.2rem;
+  padding: 10px;
 }
 
 .container-fluid {
@@ -149,16 +150,17 @@ instead of custom classes for each part of the columns*/
 
 #press {
   background-color: #F8C4B4;
-  text-align: center;
   padding: 0 10% 0;
-  color: white;
-  justify-content: center;
-
 }
 
 .press-column {
   margin: 5% 0;
-  align-self: center;
+  display: flex;
+  align-items: center;
+}
+
+.press-img {
+  margin: auto;
 }
 
 /*PRICING SECTION*/
