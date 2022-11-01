@@ -1,0 +1,218 @@
+/*
+CRITICAL ABOUT CENTERING:
+
+- To align horizontally use 'text-center' on classs or 'text-align: center;' in CSS - always on the DIV outside
+- To align vertically use 'align-self-center' on class or 'align-self: center;' in CSS - always on the DIV outside
+
+-----------------------
+Fonts used in this project:
+
+font-family: 'Expletus Sans', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+/*NAVIGATION & HEADER SECTION*/
+
+#title {
+  background-color: #00ABB3;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 3% 13% 0;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  border-radius: 0.2rem;
+}
+
+.title-image {
+    /*transform: rotate(25deg);*/
+    width: 90%;
+}
+
+/*FEATURES SECTION*/
+
+/*Another option here for the padding customization is to use the ID #Features,
+instead of custom classes for each part of the columns*/
+
+#features {
+  /*transform: translateY(-20%);*/
+  background-color: white;
+}
+
+.feature-title {
+  font-weight: bold;
+}
+
+.feature-title:hover {
+  color: #ff4c68;
+  transition: .2s;
+}
+
+.features {
+  padding: 5% 5%;
+}
+
+.features-container {
+  padding: 0 10%;
+}
+
+.text-feature {
+  padding: 2% 15% 0;
+}
+
+.feature-img {
+  padding: 7% 0 5%;
+  color: #ef8172;
+}
+
+.feature-img:hover {
+  color: #ff4c68;
+  transition: .5s;
+}
+
+/*TESTIMONIALS SECTION*/
+
+#testimonials {
+  padding: 5% 15% 3%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  height: 600px;
+}
+
+.testimonial-text {
+  padding: 0 20%;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 15%;
+  margin: 3%;
+}
+
+/*CAROUSEL*/
+.carousel-indicators {
+  margin: -5% 0;
+}
+
+.carousel-control-prev {
+  padding-top: 10%;
+
+}
+
+.carousel-control-next {
+  padding-top: 10%;
+
+}
+
+
+/*PRESS SECTION*/
+
+#press {
+  background-color: #F8C4B4;
+  text-align: center;
+  padding: 0 10% 0;
+  color: white;
+  justify-content: center;
+
+}
+
+.press-column {
+  margin: 5% 0;
+  align-self: center;
+}
+
+/*PRICING SECTION*/
+
+#pricing {
+  padding: 5% 15%;
+}
+
+.pricing-header {
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  border-radius: 1%;
+  height: 100%;
+  padding-bottom: 2.5%;
+}
+
+.price {
+  color: #ef8172;
+  margin-bottom: 7%;
+}
+
+.price:hover {
+  color: #ff4c68;
+}
+
+.center-price-button {
+  text-align: center;
+}
+
+.sign-up-button {
+  border-radius: 0.2rem;
+  width: 95%;
+  margin-top: auto;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.sign-up-button:hover {
+  background-color: #ff4c68;
+  color: #fff;
+  transition: .2s;
+}
+
+/*CTA SECTION*/
+
+#cta {
+  background-color: #00ABB3;
+  text-align: center;
+  padding: 5% 20% 1%;
+}
+
+/*FOOTER SECTION*/
