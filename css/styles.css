@@ -35,43 +35,16 @@ h3 {
   font-weight: 900;
 }
 
-/*--------------------------------Media Queries--------------------------------*/
 
-@media (max-width: 1500px) {
-
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    position: relative;
-    top: 70px;
-    transform: rotate(15deg);
-  }
-}
-
-@media (max-width: 900px) {
-
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    position: relative;
-    top: 0px;
-
-    transform: rotate(0deg);
-  }
-}
-
-
-
-/*--------------------------------Media Queries--------------------------------*/
 /*NAVIGATION & HEADER SECTION*/
 #title {
   background-color: #00ABB3;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-class {
+  margin-bottom: 100px;
 }
 
 .navbar-brand {
@@ -244,3 +217,80 @@ instead of custom classes for each part of the columns*/
 }
 
 /*FOOTER SECTION*/
+
+/*-------------------------------- Media Queries 1500px --------------------------------*/
+
+@media (max-width: 1500px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: relative;
+    top: 70px;
+    transform: rotate(15deg);
+  }
+
+  .navbar-class {
+    margin-bottom: 0;
+  }
+
+  #testimonials {
+    padding: 3% 0 0;
+  }
+
+
+  .press-img {
+    width: 80%;
+  }
+
+}
+
+/*-------------------------------- Media Queries 900px --------------------------------*/
+
+@media (max-width: 900px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-column {
+    padding: 0;
+  }
+
+  .title-image {
+    position: relative;
+    top: 0px;
+    transform: rotate(0deg);
+  }
+
+  .navbar-class {
+    margin-bottom: 0;
+  }
+
+  #testimonials {
+    padding: 3% 0 0;
+  }
+
+  .testimonial-text {
+    font-weight: 400;
+  }
+
+  .press-img {
+    width: 60%;
+  }
+
+  .p text-feature {
+    margin-bottom: 0;
+  }
+
+  #cta {
+    padding: 5% 2% 1%;
+  }
+
+  .cta-h3 {
+    font-weight: 400;
+  }
+
+}
