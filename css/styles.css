@@ -12,7 +12,6 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Ubuntu', sans-serif;
 */
-
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #fff;
@@ -36,27 +35,62 @@ h3 {
   font-weight: 900;
 }
 
-/*NAVIGATION & HEADER SECTION*/
+/*--------------------------------Media Queries--------------------------------*/
 
+@media (max-width: 1500px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: relative;
+    top: 70px;
+    transform: rotate(15deg);
+  }
+}
+
+@media (max-width: 900px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: relative;
+    top: 0px;
+
+    transform: rotate(0deg);
+  }
+}
+
+
+
+/*--------------------------------Media Queries--------------------------------*/
+/*NAVIGATION & HEADER SECTION*/
 #title {
   background-color: #00ABB3;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
 }
+
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   font-size: 2.5rem;
 }
 
+.nav-item {
+  padding: 0 18px;
+}
+
 .nav-link {
   font-weight: 600;
   font-size: 1.2rem;
-  padding: 10px;
 }
 
 .container-fluid {
-  padding: 3% 13% 0;
+  padding: 2% 10% 0;
 }
 
 .download-button {
@@ -65,18 +99,18 @@ h3 {
 }
 
 .title-image {
-    /*transform: rotate(25deg);*/
-    width: 90%;
+  /*transform: rotate(25deg);*/
+  width: 80%;
 }
 
 /*FEATURES SECTION*/
-
 /*Another option here for the padding customization is to use the ID #Features,
 instead of custom classes for each part of the columns*/
-
 #features {
   /*transform: translateY(-20%);*/
   background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-title {
@@ -111,13 +145,11 @@ instead of custom classes for each part of the columns*/
 }
 
 /*TESTIMONIALS SECTION*/
-
 #testimonials {
   padding: 5% 15% 3%;
   text-align: center;
   background-color: #ef8172;
   color: white;
-  height: 600px;
 }
 
 .testimonial-text {
@@ -137,17 +169,13 @@ instead of custom classes for each part of the columns*/
 
 .carousel-control-prev {
   padding-top: 10%;
-
 }
 
 .carousel-control-next {
   padding-top: 10%;
-
 }
 
-
 /*PRESS SECTION*/
-
 #press {
   background-color: #F8C4B4;
   padding: 0 10% 0;
@@ -164,7 +192,6 @@ instead of custom classes for each part of the columns*/
 }
 
 /*PRICING SECTION*/
-
 #pricing {
   padding: 5% 15%;
 }
@@ -178,6 +205,7 @@ instead of custom classes for each part of the columns*/
   border-radius: 1%;
   height: 100%;
   padding-bottom: 2.5%;
+  /*This is what makes the buttons to have a slight padding on the bottom */
 }
 
 .price {
@@ -197,6 +225,7 @@ instead of custom classes for each part of the columns*/
   border-radius: 0.2rem;
   width: 95%;
   margin-top: auto;
+  /*This is what makes them stay in the bottom */
   background-color: #ef8172;
   color: #fff;
 }
@@ -208,7 +237,6 @@ instead of custom classes for each part of the columns*/
 }
 
 /*CTA SECTION*/
-
 #cta {
   background-color: #00ABB3;
   text-align: center;
